@@ -113,15 +113,15 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-      algolia: {
-        appId: process.env.ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: 'PROD_WEB',
-        contextualSearch: true,
-        externalUrlRegex: 'external\\.com|domain\\.com',
-        searchParameters: {},
-        searchPagePath: 'search',
-      },
+      // algolia: {
+      //   appId: process.env.ALGOLIA_APP_ID,
+      //   apiKey: process.env.ALGOLIA_API_KEY,
+      //   indexName: 'PROD_WEB',
+      //   contextualSearch: true,
+      //   externalUrlRegex: 'external\\.com|domain\\.com',
+      //   searchParameters: {},
+      //   searchPagePath: 'search',
+      // },
     }),
 };
 
